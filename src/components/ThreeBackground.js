@@ -72,7 +72,7 @@ const ThreeBackground = forwardRef((props, ref) => {
         gltf.animations.forEach((clip) => {
           const action = portalMixer.clipAction(clip);
           action.play();
-          action.timeScale = 0.5;
+          action.timeScale = 0.2;
         });
         mixers.push(portalMixer);
       }
