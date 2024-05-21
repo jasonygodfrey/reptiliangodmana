@@ -41,18 +41,25 @@ const ThreeBackground = forwardRef((props, ref) => {
     composer.addPass(bloomPass);
 
     // Ambient Light
-    const ambientLight = new THREE.AmbientLight(0xffffff, 50.0);
+    const ambientLight = new THREE.AmbientLight(0xffffff, 30.0); // Reduced intensity for balance
     scene.add(ambientLight);
 
     // Directional Light
-    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.75);
-    directionalLight.position.set(0, 1, 0);
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 1.0); // Increased intensity
+    directionalLight.position.set(0, 10, 10);
     scene.add(directionalLight);
 
     // Point Light
-    const pointLight = new THREE.PointLight(0xffffff, 1.2, 1000);
-    pointLight.position.set(50, 50, 50);
+    const pointLight = new THREE.PointLight(0xffffff, 2.0, 1000); // Increased intensity
+    pointLight.position.set(50, 50, -100);
     scene.add(pointLight);
+
+    // New Spotlight
+    const spotlight = new THREE.SpotLight(0xffffff, 3.0, 1000, Math.PI / 6, 0.1, 2);
+    spotlight.position.set(-50, 30, 50);
+    spotlight.target.position.set(0, 0, -300);
+    scene.add(spotlight);
+    scene.add(spotlight.target);
 
     const loader = new GLTFLoader();
     loader.load('/skullblooming/scene.gltf', (gltf) => {
