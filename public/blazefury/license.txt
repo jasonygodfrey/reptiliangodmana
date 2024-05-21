@@ -1,0 +1,11 @@
+Model Information:
+* title:	Blazefury Curse of Sargeras - WoW Legion Weapon
+* source:	https://sketchfab.com/3d-models/blazefury-curse-of-sargeras-wow-legion-weapon-ba92b3add4674596bb3bbdcf5d742727
+* author:	tim van wassenhove (https://sketchfab.com/tim.van.wassenhove)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Blazefury Curse of Sargeras - WoW Legion Weapon" (https://sketchfab.com/3d-models/blazefury-curse-of-sargeras-wow-legion-weapon-ba92b3add4674596bb3bbdcf5d742727) by tim van wassenhove (https://sketchfab.com/tim.van.wassenhove) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

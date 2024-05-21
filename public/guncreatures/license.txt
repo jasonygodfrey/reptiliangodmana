@@ -1,0 +1,11 @@
+Model Information:
+* title:	++GUN CREATURES
+* source:	https://sketchfab.com/3d-models/gun-creatures-9fd28dc0316241fcbc651bd4c4a9bbbc
+* author:	louisriedelsheimer (https://sketchfab.com/louisriedelsheimer)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "++GUN CREATURES" (https://sketchfab.com/3d-models/gun-creatures-9fd28dc0316241fcbc651bd4c4a9bbbc) by louisriedelsheimer (https://sketchfab.com/louisriedelsheimer) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
