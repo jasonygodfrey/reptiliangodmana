@@ -61,11 +61,21 @@ const ThreeBackground = forwardRef((props, ref) => {
     scene.add(spotlight);
     scene.add(spotlight.target);
 
+    const redLight = new THREE.PointLight(0xff0000, 5000.0, 2000); // Increased intensity and distance
+    redLight.position.set(-150, 50, 0); // Position on the left
+    scene.add(redLight);
+
+        const glareLight = new THREE.SpotLight(0xff0000, 10.0, 2000, Math.PI / 16, 0.5, 2);
+        glareLight.position.set(0, 50, 0);
+        scene.add(glareLight);
+
+
+
     const loader = new GLTFLoader();
     loader.load('/skullblooming/scene.gltf', (gltf) => {
       scene.add(gltf.scene);
-      gltf.scene.scale.set(1000, 1000, 1000);
-      gltf.scene.position.set(0, 0, -300);
+      gltf.scene.scale.set(10, 10, 10);
+      gltf.scene.position.set(0, 0, 0);
 
       if (gltf.animations && gltf.animations.length) {
         const portalMixer = new THREE.AnimationMixer(gltf.scene);
